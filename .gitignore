@@ -1,0 +1,48 @@
+# --- Config y secrets (nunca al repo) ---
+config.yaml
+config.local.yaml
+*.env
+.env
+.env.*
+!.env.example
+secrets/
+*.pem
+*.key
+
+# --- Datos locales y logs ---
+data/
+logs/
+*.log
+*.db
+*.sqlite
+*.sqlite3
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+.python-version
+
+# --- Tests y herramientas ---
+.pytest_cache/
+.coverage
+htmlcov/
+.ruff_cache/
+.mypy_cache/
+
+# --- Editores y SO ---
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+Thumbs.db
+
+# --- Claude Code ) ---
+.claude/settings.local.json
+CLAUDE.md
